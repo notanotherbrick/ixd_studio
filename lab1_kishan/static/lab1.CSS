@@ -1,0 +1,41 @@
+/* applies to anything of class "example-class-selector" */
+h1 {
+     font-family: "Lato";
+     font-size : 72px;
+     font-weight : 500;
+}
+
+h1 {
+     font-family: "Lato";
+     font-size : 40px;
+     font-weight : 500;
+}
+
+/* applies to any <p> descendants of an element of class "example-class-selector" */
+p {
+	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
+	font-family: "Times New Roman", Times, serif;
+     font-size: 20px;
+
+}
+
+
+ol {
+     font-size: 20px; 
+}
+
+/* this style exists to make it obvious that you've successfully linked
+   the CSS to the page. feel free to remove it once the link is working. */
+body {
+     color: #e0ffff;
+     border: 1px dotted gray;
+     padding: 20px;
+     background-color: #107896;
+
+}
+
+a {
+     font-family: "Lato";
+     
+     font-weight : 300;
+}
